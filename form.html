@@ -1,0 +1,30 @@
+<link rel="stylesheet" type="text/css" href="/main.css">
+<div class="formWr">
+  <h3>Обновление данных</h3>
+  <form action="/" method="POST" enctype="multipart/form-data" id="formId">
+    <div>
+      <span>Маска:</span>
+      <input type="text" name="mask" value="^М&#92;d&#92;d ." id="maskId">
+    </div>
+    <br/>
+    <div>
+      <span>Файл:</span>
+      <input type="file" name="fileUploaded">
+    </div>
+    <br/>
+    <div style="text-align: right;">
+      <input type="submit" value="Обработка" class="button">
+    </div>
+  </form>
+</div>
+<script type="text/javascript">
+  var action = '/?mask=';
+  var form = document.getElementById('formId');
+  var mask = document.getElementById('maskId');
+
+  form.action = action + mask.value;
+
+  mask.onchange = function () {
+    form.action = action + mask.value;
+  }
+</script>

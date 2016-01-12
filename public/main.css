@@ -1,0 +1,82 @@
+.formWr {
+  position: absolute;
+  width: 50%;
+  margin: 100px 25%;
+  border: 1px solid #2E6DA4;
+  border-radius: 4px;
+}
+.formWr h3 {
+  color: #666;
+  text-align: center;
+}
+form#formId {
+  padding: 20px;
+  margin: 0;
+}
+form#formId div {
+  position: relative;
+  width: 100%;
+}
+form#formId div input[type=text] {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.button {
+  display: inline-block;
+  border: 1px solid #2E6DA4;
+  background-color: #337AB7;
+  color: #FFF;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -moz-user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+}
+form#formId div span {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+  text-transform: uppercase;
+}
+
+table.findTable { 
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin-bottom: 55px;
+}
+table.findTable thead td {
+  color: #666;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+table.findTable td {
+  padding: 4px 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+a {
+  color: #0058A5;
+}
