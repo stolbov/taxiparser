@@ -20,7 +20,7 @@ function parseForTaxi (file, mask, callback) {
           .each(
             function (index, el) {
               var tdList = $(this).children('td');
-              var src = tdList.eq(1).text();
+              var src = tdList.eq(1).text().replace(/ +(?= )/g,'');
               // if (regExpRus.test(src) || regExpLat.test(src)) {
               if (regExpMask.test(src)) {
                 var split = src.split(' ');

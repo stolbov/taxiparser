@@ -5,9 +5,11 @@
   border: 1px solid #2E6DA4;
   border-radius: 4px;
 }
-.formWr h3 {
-  color: #666;
+.formWr h2 {
+  color: #337AB7;
   text-align: center;
+  text-transform: uppercase;
+  opacity: 0.8;
 }
 form#formId {
   padding: 20px;
@@ -76,7 +78,10 @@ table.findTable td {
   padding: 4px 5px;
   border-bottom: 1px solid #ddd;
 }
-
+tr.errorRow td {
+  color: red;
+  background-color: #ddd
+}
 a {
   color: #0058A5;
 }
